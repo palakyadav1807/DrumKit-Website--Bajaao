@@ -1,22 +1,21 @@
 body{
   text-align: center;
-  background-color: #ffe0f7;
   margin: 0;
   height: 100%;
 }
 .bg{
-  margin: 0;
   background-image: url("images/background.gif");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    margin: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
   margin-top: 0;
   padding-top: 8%;
-  font-size: 5rem;
+  font-size: 7rem;
   color: #fe91ca;
   font-family: "Arvo", cursive;
   text-shadow: 4px 0 #c62a88;
@@ -27,7 +26,7 @@ p{
 }
 
 footer {
-  color: #d54062;
+  color: #fe91ca;
   font-family: sans-serif;
 }
 
@@ -89,9 +88,24 @@ background-image:url('images/snare.png');
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color:white;
 }
+@media only screen and (max-device-width: 480px) {
+  h1{
+    font-size: 12rem;
+    padding-top: 10px  ;
+    padding-bottom: 10px  ;
+  }
+  .bg{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .drum{
+    width: 220px;
+    height: 220px;
+  }
+    }
